@@ -1,7 +1,7 @@
 ---
 import { menuMain } from "~/data/menus.js";
 import { Picture } from "astro:assets";
-import PizzaHero from "~/assets/images/pizza-hero.png";
+import Logo from "~/assets/images/logo.png";
 
 const rmTrailingSlash = (path: string): string => {
   return path.endsWith("/") && path.length > 1
@@ -25,9 +25,9 @@ const pathname = rmTrailingSlash(Astro.url.pathname);
 
       <a href="/" class="-m-1.5 p-1.5">
         <Picture
-          src={PizzaHero}
+          src={Logo}
           alt="bakpia 3 generasi"
-          class="h-20 w-full object-cover object-center"
+          class="h-20 w-full object-cover object-center rounded-full"
           loading="lazy"
           fetchpriority="auto"
         />
@@ -89,9 +89,9 @@ const pathname = rmTrailingSlash(Astro.url.pathname);
         <div class="flex items-center justify-between">
           <a href="/" class="-m-1.5 p-1.5">
             <Picture
-              src={PizzaHero}
+              src={Logo}
               alt="bakpia 3 generasi"
-              class="h-20 w-full object-cover object-center"
+              class="h-20 w-full object-cover object-center rounded-full"
               loading="lazy"
               fetchpriority="auto"
             />
