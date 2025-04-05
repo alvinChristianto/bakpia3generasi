@@ -12,43 +12,42 @@ import WideImage from "~/components/WideImage.astro";
 import ReviewSlider from "~/components/ReviewSlider.astro";
 
 // Images
-import PizzaHero from "~/assets/images/pizza-hero.png";
-import Pizza from "~/assets/images/pizza.png";
-import Spaghetti from "~/assets/images/spaghetti.png";
-import Fish from "~/assets/images/fish.png";
-import DecorativeImage from "~/assets/images/pexels-shvetsa-5953523.jpg";
+import bakpiaHero from "~/assets/images/bakpia_abon.png";
+import DecorativeImage from "~/assets/images/bakpia_gallery.png";
 import reviewAuthors from "~/assets/images/review-authors.png";
-import Dessert from "~/assets/images/dessert.png";
-import Mussels from "~/assets/images/mussels2.png";
+
+import abon from "~/assets/images/bakpia_abon.png";
+import keju from "~/assets/images/bakpia_keju.png";
+import kacangh from "~/assets/images/bakpia_kacang.png";
+import coklatalmond from "~/assets/images/bakpia_coklatalm.png";
+
 ---
 
 <Layout title="Bakpia 3 Generasi" pageTitle="Bakpia 3 Generasi" description="Bakpia 3 Generasi, oleh-oleh dari yogyakarta yang enak dan terjangkau">
   <Section class:list={"bg-white"}>
     <Hero>
       <div slot="hero-content-left" class="prose max-w-none max-lg:order-1">
-        <Badge title="il ristorante italiana" />
+        <!-- <Badge title="il ristorante italiana" /> -->
         <h1 class="font-black">
-          Real Italian food in a real Italian restaurant...
+          Bakpia 3 Generasi, oleh-oleh khas Jogja
         </h1>
 
         <p>
-          Experience the taste of Italy with our authentic dishes made from the
-          finest ingredients. Indulge in our wide variety of pizzas, pastas, and
-          desserts, all crafted with love and tradition. Whether you're dining
-          in or taking out, we promise a memorable culinary experience.
+          Bakpia 3 Generasi, warisan yang terjaga dan diturunkan selama 3 generasi. Citarasa unik dengan paduan bahan-bahan terbaik. 
+          Varian kami Meliputi Abon, Coklat almond, Keju dan Kacang Hijau 
         </p>
 
-        <span class="text-brand-green font-medium">✔ We also deliver</span>
+        <span class="text-brand-green font-medium">✔ Tersedia Di The Cabin Hotel dan Klinik Gigi Dentes</span>
 
         <div class="mt-8 flex items-center gap-x-8">
-          <Button url="/book">Book now</Button>
-          <ButtonCallUs />
+          <Button url="/book">Pesan lewat Whatsapp</Button>
+          <!-- <ButtonCallUs /> -->
         </div>
       </div>
       <div slot="hero-content-right">
         <Picture
           class:list={"mx-auto"}
-          src={PizzaHero}
+          src={bakpiaHero}
           height={600}
           formats={["avif", "webp"]}
           alt="A description of my image."
@@ -71,8 +70,7 @@ import Mussels from "~/assets/images/mussels2.png";
         Pilihan Bakpia kami
       </h2>
       <p slot="heading-content">
-        Explore our selection of authentic Italian dishes, from classic pizzas
-        to homemade pastas.
+        Varian Bakpia 3 Generasi
       </p>
     </Heading>
 
@@ -81,16 +79,16 @@ import Mussels from "~/assets/images/mussels2.png";
         <div class="flex flex-col items-center prose text-center">
           <Picture
             class:list={"not-prose w-full h-auto"}
-            src={Pizza}
+            src={abon}
             formats={["avif", "webp"]}
             alt="A description of my image."
           />
-          <h3 class="h4 mt-0 font-black">Pasta &amp; Spaghetti</h3>
-          <p>
+          <h3 class="h4 mt-0 font-black">Bakpia Abon</h3>
+          <!-- <p>
             Pasta is a staple of Italian cuisine, with a rich history dating
             back centuries. It comes in various shapes and sizes, each suited to
             different sauces and preparations.
-          </p>
+          </p> -->
         </div>
       </div>
 
@@ -98,16 +96,16 @@ import Mussels from "~/assets/images/mussels2.png";
         <div class="flex flex-col items-center prose text-center">
           <Picture
             class:list={"not-prose w-full h-auto"}
-            src={Spaghetti}
+            src={kacangh}
             formats={["avif", "webp"]}
             alt="A description of my image."
           />
-          <h3 class="h4 mt-0 font-black">Pasta &amp; Spaghetti</h3>
-          <p>
+          <h3 class="h4 mt-0 font-black">Bakpia Kacang Hijau</h3>
+          <!-- <p>
             Pasta is a staple of Italian cuisine, with a rich history dating
             back centuries. It comes in various shapes and sizes, each suited to
             different sauces and preparations.
-          </p>
+          </p> -->
         </div>
       </div>
 
@@ -115,16 +113,16 @@ import Mussels from "~/assets/images/mussels2.png";
         <div class="flex flex-col items-center prose text-center">
           <Picture
             class:list={"not-prose w-full h-auto"}
-            src={Fish}
+            src={keju}
             formats={["avif", "webp"]}
             alt="A description of my image."
           />
-          <h3 class="h4 mt-0 font-black">Pasta &amp; Spaghetti</h3>
-          <p>
+          <h3 class="h4 mt-0 font-black">Bakpia Keju</h3>
+          <!-- <p>
             Pasta is a staple of Italian cuisine, with a rich history dating
             back centuries. It comes in various shapes and sizes, each suited to
             different sauces and preparations.
-          </p>
+          </p> -->
         </div>
       </div>
 
@@ -132,104 +130,21 @@ import Mussels from "~/assets/images/mussels2.png";
         <div class="flex flex-col items-center prose text-center">
           <Picture
             class:list={"not-prose w-full h-auto"}
-            src={Fish}
+            src={coklatalmond}
             formats={["avif", "webp"]}
             alt="A description of my image."
           />
-          <h3 class="h4 mt-0 font-black">Pasta &amp; Spaghetti</h3>
-          <p>
+          <h3 class="h4 mt-0 font-black">Bakpia Coklat Almond</h3>
+          <!-- <p>
             Pasta is a staple of Italian cuisine, with a rich history dating
             back centuries. It comes in various shapes and sizes, each suited to
             different sauces and preparations.
-          </p>
+          </p> -->
         </div>
       </div>
     </Grid>
   </Section>
 
-  <Section class:list={"bg-white"}>
-    <Hero>
-      <div slot="hero-content-left" class="prose lg:order-2">
-        <h1 class="font-black">Pizza</h1>
-
-        <p>
-          Pizza is a beloved dish that originated in Italy and has since become
-          a global sensation. Its versatility allows for endless combinations of
-          toppings, from classic margherita with fresh tomatoes, mozzarella, and
-          basil, to more adventurous options like barbecue chicken or vegan
-          cheese.
-        </p>
-
-        <p>
-          Whether enjoyed at a cozy pizzeria or delivered to your doorstep,
-          pizza brings people together and satisfies cravings like no other
-          food. Beyond its delicious taste, pizza also holds cultural
-          significance. It is often associated with gatherings, celebrations,
-          and comfort.
-        </p>
-
-        <div class="mt-8">
-          <Button url="/menu">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 20 20"
-              fill="currentColor"
-              class="size-5 inline-block"
-              aria-hidden="true"
-            >
-              <path
-                fill-rule="evenodd"
-                d="M8.22 5.22a.75.75 0 0 1 1.06 0l4.25 4.25a.75.75 0 0 1 0 1.06l-4.25 4.25a.75.75 0 0 1-1.06-1.06L11.94 10 8.22 6.28a.75.75 0 0 1 0-1.06Z"
-                clip-rule="evenodd"></path>
-            </svg>
-            View menu
-          </Button>
-        </div>
-      </div>
-      <div slot="hero-content-right">
-        <Picture
-          class:list={"mx-auto"}
-          src={PizzaHero}
-          height={600}
-          formats={["avif", "webp"]}
-          alt="A description of my image."
-        />
-      </div>
-    </Hero>
-  </Section>
-
-  <Section class:list={"bg-white"}>
-    <Hero>
-      <div slot="hero-content-left" class="prose max-w-none max-lg:order-1">
-        <Badge color="red" title="delicious" />
-        <h2 class="font-black h2 my-4">Plate of the week</h2>
-
-        <span class="text-brand-red text-2xl font-bold italic"
-          >Fresh Mussels!</span
-        >
-
-        <p>
-          Our plate of the week is a delicious dish that changes every week.
-          This week, we're featuring fresh mussels cooked in a white wine and
-          garlic sauce, served with a side of crispy fries. Don't miss out on
-          this limited-time offer!
-        </p>
-
-        <div class="mt-8">
-          <Button color="red" url="/book">Book now</Button>
-        </div>
-      </div>
-      <div slot="hero-content-right">
-        <Picture
-          class:list={"mx-auto"}
-          src={Mussels}
-          height={600}
-          formats={["avif", "webp"]}
-          alt="A description of my image."
-        />
-      </div>
-    </Hero>
-  </Section>
 
   <!-- Reviews -->
   <Section class:list={"bg-brand-red/20 relative"}>
@@ -240,12 +155,11 @@ import Mussels from "~/assets/images/mussels2.png";
             <Badge color="white" title="reviews" />
           </div>
           <h2 slot="heading-title" class="font-black h4 text-center mt-0 mb-4">
-            What our customers say...
+            Review Bakpia 3 Generasi
           </h2>
           <div slot="heading-content">
             <p class="text-center">
-              Don't just take our word for it. Read what our customers have to
-              say about their dining experience at our restaurant.
+              review-review pelanggan yang puas dengan Bakpia 3 Generasi
             </p>
 
             <ReviewSlider />
@@ -287,7 +201,7 @@ import Mussels from "~/assets/images/mussels2.png";
   </Section>
 
   <!-- Desserts -->
-  <Section class:list={"bg-white"}>
+  <!-- <Section class:list={"bg-white"}>
     <Hero>
       <div slot="hero-content-left" class="prose max-w-none order-2">
         <Badge title="dolce" />
@@ -325,10 +239,10 @@ import Mussels from "~/assets/images/mussels2.png";
         />
       </div>
     </Hero>
-  </Section>
+  </Section> -->
 
   <!-- Contact -->
-  <Section class:list={"bg-white"}>
+  <!-- <Section class:list={"bg-white"}>
     <Hero>
       <div slot="hero-content-left" class="prose max-w-none">
         <Badge color="red" title="benvenuto" />
@@ -362,5 +276,5 @@ import Mussels from "~/assets/images/mussels2.png";
         />
       </div>
     </Hero>
-  </Section>
+  </Section> -->
 </Layout>

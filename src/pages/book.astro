@@ -3,17 +3,22 @@ import Layout from "~/layouts/Layout.astro";
 import Section from "~/components/Section.astro";
 import Heading from "~/components/Heading.astro";
 import FormBook from "~/components/forms/FormBook.astro";
+import Button from "~/components/Button.astro";
 ---
 
 <Layout>
 	<Section>
-		<Heading>
+		<!-- <Heading>
 			<h2 slot="heading-title" class="font-black text-brand-green h2">Book a table</h2>
 			<p slot="heading-content" class="text-pretty">
 				Reserve a table for your next meal. We'll get back to you to confirm your booking.
 			</p>
 		</Heading>
 
-		<FormBook />
+		<FormBook /> -->
+		<div class="mt-8 flex items-center gap-x-8">
+            <Button url="/book">Pesan lewat Whatsapp</Button>
+            <!-- <ButtonCallUs /> -->
+          </div>
 	</Section>
 </Layout>

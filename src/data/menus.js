@@ -1,31 +1,31 @@
 export const menuMain = [
     {
-        name: "Home",
+        name: "Halaman Depan",
         url: "/",
         highlighted: false,
     },
     {
-        name: "Menu",
+        name: "Varian Bakpia",
         url: "/menu",
         highlighted: false,
     },
     {
-        name: "About Us",
+        name: "Kisah Kami",
         url: "/about-us",
         highlighted: false,
     },
+    // {
+    //     name: "Gallery",
+    //     url: "/gallery",
+    //     highlighted: false,
+    // },
+    // {
+    //     name: "Contact",
+    //     url: "/contact",
+    //     highlighted: false,
+    // },
     {
-        name: "Gallery",
-        url: "/gallery",
-        highlighted: false,
-    },
-    {
-        name: "Contact",
-        url: "/contact",
-        highlighted: false,
-    },
-    {
-        name: "Book",
+        name: "Pesan Bakpia",
         url: "/book",
         highlighted: true,
     },
