@@ -20,27 +20,33 @@ import abon from "~/assets/images/bakpia_abon.png";
 import keju from "~/assets/images/bakpia_keju.png";
 import kacangh from "~/assets/images/bakpia_kacang.png";
 import coklatalmond from "~/assets/images/bakpia_coklatalm.png";
-
+import wabutton from "~/assets/images/WhatsAppButtonGreenSmall.png";
 ---
 
-<Layout title="Bakpia 3 Generasi" pageTitle="Bakpia 3 Generasi" description="Bakpia 3 Generasi, oleh-oleh dari yogyakarta yang enak dan terjangkau">
+<Layout
+  title="Bakpia 3 Generasi"
+  pageTitle="Bakpia 3 Generasi"
+  description="Bakpia 3 Generasi, oleh-oleh dari yogyakarta yang enak dan terjangkau"
+>
   <Section class:list={"bg-white"}>
     <Hero>
       <div slot="hero-content-left" class="prose max-w-none max-lg:order-1">
         <!-- <Badge title="il ristorante italiana" /> -->
-        <h1 class="font-black">
-          Bakpia 3 Generasi, oleh-oleh khas Jogja
-        </h1>
+        <h1 class="font-black">Bakpia 3 Generasi, oleh-oleh khas Jogja</h1>
 
         <p>
-          Bakpia 3 Generasi, warisan yang terjaga dan diturunkan selama 3 generasi. Citarasa unik dengan paduan bahan-bahan terbaik. 
-          Varian kami Meliputi Abon, Coklat almond, Keju dan Kacang Hijau 
+          Bakpia 3 Generasi, warisan yang terjaga dan diturunkan selama 3
+          generasi. Citarasa unik dengan paduan bahan-bahan terbaik. Varian kami
+          Meliputi Abon, Coklat almond, Keju dan Kacang Hijau
         </p>
 
-        <span class="text-brand-green font-medium">✔ Tersedia Di The Cabin Hotel dan Klinik Gigi Dentes</span>
+        <span class="text-brand-green font-medium"
+          >✔ Tersedia Di The Cabin Hotel dan Klinik Gigi Dentes</span
+        >
 
         <div class="mt-8 flex items-center gap-x-8">
-          <Button url="/book">Pesan lewat Whatsapp</Button>
+          <Button url="https://wa.me/6282138060002?text=Halo,%20saya%20ingin%20membeli%20bakpia%203%20generasi%20" target="_blank">Pesan lewat Whatsapp</Button>
+         
           <!-- <ButtonCallUs /> -->
         </div>
       </div>
@@ -69,9 +75,7 @@ import coklatalmond from "~/assets/images/bakpia_coklatalm.png";
       <h2 slot="heading-title" class="font-black text-brand-green h2">
         Pilihan Bakpia kami
       </h2>
-      <p slot="heading-content">
-        Varian Bakpia 3 Generasi
-      </p>
+      <p slot="heading-content">Varian Bakpia 3 Generasi</p>
     </Heading>
 
     <Grid>
@@ -144,7 +148,6 @@ import coklatalmond from "~/assets/images/bakpia_coklatalm.png";
       </div>
     </Grid>
   </Section>
-
 
   <!-- Reviews -->
   <Section class:list={"bg-brand-red/20 relative"}>

@@ -61,6 +61,7 @@ const pathname = rmTrailingSlash(Astro.url.pathname);
             <a
               href={item.url}
               class={`transition text-base/6 font-semibold hover:text-brand-green ${item.highlighted ? "menu-item-highlighted" : ""} ${pathname === item.url ? "menu-item-active" : ""}`}
+              target={item.target}
             >
               {item.name}
             </a>

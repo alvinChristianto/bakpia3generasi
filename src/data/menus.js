@@ -26,8 +26,9 @@ export const menuMain = [
     // },
     {
         name: "Pesan Bakpia",
-        url: "/book",
+        url: "https://wa.me/6282138060002?text=Halo,%20saya%20ingin%20membeli%20bakpia%203%20generasi%20", 
         highlighted: true,
+        target:"_blank",
     },
 ];
 
