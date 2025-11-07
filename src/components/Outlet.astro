@@ -1,17 +1,20 @@
 ---
 import { Image } from "astro:assets";
-import data from "./../data/outlet.json";
+import { getCollection } from "astro:content";
+const outlet = await getCollection("outlet");
+const hotel = await getCollection("hotel");
+const dentes = await getCollection("dentes");
 ---
 
 <div class="mt-5">
     <h4>Outlet Bakpia</h4>
     <div class="grid grid-cols-1 xl:grid-cols-2 gap-4">
         {
-            data.bakpia.map((outlet) => {
+            outlet.map((o) => {
                 return (
                     <div class="flex flex-col sm:mx-auto justify-between items-center bg-white border border-gray-200 rounded-lg shadow-sm md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700 dark:text-gray-100">
                         <Image
-                            src={outlet.image}
+                            src={o.data.image}
                             alt="bakpia 3 generasi"
                             width={750}
                             height={1000}
@@ -21,28 +24,28 @@ import data from "./../data/outlet.json";
                         />
                         <div class="card-content p-5 lg:ml-2 mr-2 mt-2 lg:mt-0">
                             <h6 class="text-2xl font-bold tracking-tight text-gray-900 dark:text-gray-100">
-                                {outlet.name}
+                                {o.data.name}
                             </h6>
                             <div class="dark:text-gray-100">
                                 WhatsApp:{" "}
                                 <div class="md:inline">
                                     <a
                                         class="ml-5 md:ml-0 no-underline border-solid border-b border-b-red-500 dark:text-gray-100"
-                                        href={`https://wa.me/${outlet.whatsapp}`}
+                                        href={`https://wa.me/${o.data.whatsapp}`}
                                     >
-                                        +{outlet.whatsapp}
+                                        +{o.data.whatsapp}
                                     </a>
                                 </div>
                             </div>
                             <div>
                                 Buka:{" "}
                                 <div class="md:inline ml-5 md:ml-0">
-                                    {outlet["open-at"]}
+                                    {o.data.openAt}
                                 </div>
                             </div>
                             <iframe
                                 class="w-full h-48"
-                                src={outlet.maps}
+                                src={o.data.maps}
                                 allowfullscreen=""
                                 loading="lazy"
                                 referrerpolicy="no-referrer-when-downgrade"
@@ -59,11 +62,11 @@ import data from "./../data/outlet.json";
     <h4>Outlet di Klinik Gigi Dentes</h4>
     <div class="grid grid-cols-1 xl:grid-cols-2 gap-4">
         {
-            data.dentes.map((outlet) => {
+            dentes.map((o) => {
                 return (
                     <div class="flex flex-col sm:mx-auto justify-between items-center bg-white border border-gray-200 rounded-lg shadow-sm md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700 dark:text-gray-100">
                         <Image
-                            src={outlet.image}
+                            src={o.data.image}
                             alt="bakpia 3 generasi"
                             width={750}
                             height={1000}
@@ -73,28 +76,28 @@ import data from "./../data/outlet.json";
                         />
                         <div class="card-content p-5 lg:ml-2 mr-2 mt-2 lg:mt-0">
                             <h6 class="text-2xl font-bold tracking-tight text-gray-900 dark:text-gray-100">
-                                {outlet.name}
+                                {o.data.name}
                             </h6>
                             <div class="dark:text-gray-100">
                                 WhatsApp:{" "}
                                 <div class="md:inline">
                                     <a
                                         class="ml-5 md:ml-0 no-underline border-solid border-b border-b-red-500 dark:text-gray-100"
-                                        href={`https://wa.me/${outlet.whatsapp}`}
+                                        href={`https://wa.me/${o.data.whatsapp}`}
                                     >
-                                        +{outlet.whatsapp}
+                                        +{o.data.whatsapp}
                                     </a>
                                 </div>
                             </div>
                             <div>
                                 Buka:{" "}
                                 <div class="md:inline ml-5 md:ml-0">
-                                    {outlet["open-at"]}
+                                    {o.data.openAt}
                                 </div>
                             </div>
                             <iframe
                                 class="w-full h-48"
-                                src={outlet.maps}
+                                src={o.data.maps}
                                 allowfullscreen=""
                                 loading="lazy"
                                 referrerpolicy="no-referrer-when-downgrade"
@@ -111,11 +114,11 @@ import data from "./../data/outlet.json";
     <h4>Outlet di The Cabin Hotel</h4>
     <div class="grid grid-cols-1 xl:grid-cols-2 gap-4">
         {
-            data.hotel.map((outlet) => {
+            hotel.map((o) => {
                 return (
                     <div class="flex flex-col sm:mx-auto justify-between items-center bg-white border border-gray-200 rounded-lg shadow-sm md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700 dark:text-gray-100">
                         <Image
-                            src={outlet.image}
+                            src={o.data.image}
                             alt="bakpia 3 generasi"
                             width={750}
                             height={1000}
@@ -125,28 +128,28 @@ import data from "./../data/outlet.json";
                         />
                         <div class="card-content p-5 lg:ml-2 mr-2 mt-2 lg:mt-0">
                             <h6 class="text-2xl font-bold tracking-tight text-gray-900 dark:text-gray-100">
-                                {outlet.name}
+                                {o.data.name}
                             </h6>
                             <div class="dark:text-gray-100">
                                 WhatsApp:{" "}
                                 <div class="md:inline">
                                     <a
                                         class="ml-5 md:ml-0 no-underline border-solid border-b border-b-red-500 dark:text-gray-100"
-                                        href={`https://wa.me/${outlet.whatsapp}`}
+                                        href={`https://wa.me/${o.data.whatsapp}`}
                                     >
-                                        +{outlet.whatsapp}
+                                        +{o.data.whatsapp}
                                     </a>
                                 </div>
                             </div>
                             <div>
                                 Buka:{" "}
                                 <div class="md:inline ml-5 md:ml-0">
-                                    {outlet["open-at"]}
+                                    {o.data.openAt}
                                 </div>
                             </div>
                             <iframe
                                 class="w-full h-48"
-                                src={outlet.maps}
+                                src={o.data.maps}
                                 allowfullscreen=""
                                 loading="lazy"
                                 referrerpolicy="no-referrer-when-downgrade"

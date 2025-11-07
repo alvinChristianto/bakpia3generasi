@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "name": "Dentes Hadeka",
+    "image": "/src/assets/images/outlet/Dentes-Monjali-2.jpg",
+    "whatsapp": "6287837766677",
+    "openAt": "Senin - Sabtu 09:00 - 21:00",
+    "maps": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3953.285520259917!2d110.3671636!3d-7.7595135!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a5914da08661b%3A0x1acd2db33e421863!2sKlinik%20Gigi%20Dentes%20Monjali%202%20%7C%20Klinik%20Dokter%20Gigi%20Jogja!5e0!3m2!1sen!2sid!4v1762494923862!5m2!1sen!2sid"
+  },
+  {
+    "id": 2,
+    "name": "Dentes Monjali",
+    "image": "/src/assets/images/outlet/Dentes-Monjali-1.jpg",
+    "whatsapp": "6285100500101",
+    "openAt": "Senin - Sabtu 09:00 - 21:00",
+    "maps": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3953.285520259917!2d110.3671636!3d-7.7595135!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a5856d8b997af%3A0xff1052716bc0f31a!2sKlinik%20Gigi%20Dentes%20Monjali%20%7C%20Klinik%20Dokter%20Gigi%20Terdekat%20Jogja!5e0!3m2!1sen!2sid!4v1762494864503!5m2!1sen!2sid"
+  },
+  {
+    "id": 3,
+    "name": "Dentes Godean",
+    "image": "/src/assets/images/outlet/Dentes-Godean.jpg",
+    "whatsapp": "6285100500202",
+    "openAt": "Senin - Sabtu 09:00 - 21:00",
+    "maps": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3953.093140790395!2d110.3438226!3d-7.779948600000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a5813dd15493b%3A0x798ce800a433c17!2sDental%20Clinic%20Dentes!5e0!3m2!1sen!2sid!4v1762495376890!5m2!1sen!2sid"
+  },
+  {
+    "id": 4,
+    "name": "Dentes Kaliurang",
+    "image": "/src/assets/images/outlet/Dentes-Kaliurang.jpg",
+    "whatsapp": "6285100811044",
+    "openAt": "Senin - Sabtu 09:00 - 21:00",
+    "maps": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3953.4029025445284!2d110.3880708!3d-7.747018499999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a5905b6b98f47%3A0x3539ab161182b99a!2sKlinik%20Gigi%20Dentes%20Jl%20Kaliurang%20(jakal)%20%7C%20Klinik%20Dokter%20Gigi%20Terdekat%20Jogja!5e0!3m2!1sen!2sid!4v1762495431206!5m2!1sen!2sid"
+  }
+]

@@ -1,0 +1,90 @@
+[
+  {
+    "id": 1,
+    "name": "The Grand Cabin",
+    "image": "/src/assets/images/outlet/The-Grand-Cabin-Hotel.jpg",
+    "whatsapp": "6287889998689",
+    "openAt": "Senin - Minggu 24 jam",
+    "maps": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3953.1091744200016!2d110.3608558!3d-7.778247500000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a593d880cd599%3A0x9acbd87094a4e0d2!2sThe%20Grand%20Cabin%20Hotel!5e0!3m2!1sen!2sid!4v1761356435439!5m2!1sen!2sid"
+  },
+  {
+    "id": 2,
+    "name": "Cabin Sutomo",
+    "image": "/src/assets/images/outlet/Cabin-Hotel-Sutomo.jpg",
+    "whatsapp": "6281804286278",
+    "openAt": "Senin - Minggu 24 jam",
+    "maps": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3952.9309879500433!2d110.3778493!3d-7.797131599999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a57803b4f2755%3A0xafc3414f461e4191!2sThe%20Cabin%20Hotel%20Sutomo!5e0!3m2!1sen!2sid!4v1762474438918!5m2!1sen!2sid"
+  },
+  {
+    "id": 3,
+    "name": "Cabin Purwokinanti",
+    "image": "/src/assets/images/outlet/Cabin-Purwokinanti-Hotel.jpg",
+    "whatsapp": "6282133132030",
+    "openAt": "Senin - Minggu 24 jam",
+    "maps": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3952.933746470376!2d110.37084490000001!3d-7.796839599999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a57876bc4c769%3A0xa466fee94f619f6!2sCabin%20Purwokinanti%20Hotel!5e0!3m2!1sen!2sid!4v1762474629825!5m2!1sen!2sid"
+  },
+  {
+    "id": 4,
+    "name": "Cabin Bhayangkara",
+    "image": "/src/assets/images/outlet/Cabin-Bhayangkara-Hotel.jpg",
+    "whatsapp": "6281931711520",
+    "openAt": "Senin - Minggu 24 jam",
+    "maps": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3952.9004607157517!2d110.3618599!3d-7.8003623!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a5789413bffc1%3A0xc1497e7c52b973a4!2sThe%20Cabin%20Hotel%20Bhayangkara!5e0!3m2!1sen!2sid!4v1762479477662!5m2!1sen!2sid"
+  },
+  {
+    "id": 5,
+    "name": "Cabin Ngupasan",
+    "image": "/src/assets/images/outlet/Cabin-Ngupasan-Hotel.jpg",
+    "whatsapp": "6282138342201",
+    "openAt": "Senin - Minggu 24 jam",
+    "maps": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3952.9153994364833!2d110.3621057!3d-7.7987815000000005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a57bcfd3e6697%3A0x8c759190af5c66a0!2sThe%20Cabin%20Hotel%20Ngupasan!5e0!3m2!1sen!2sid!4v1762480239090!5m2!1sen!2sid"
+  },
+  {
+    "id": 6,
+    "name": "Cabin Gandekan",
+    "image": "/src/assets/images/outlet/Cabin-Gandekan-Hotel.jpg",
+    "whatsapp": "6281804158562",
+    "openAt": "Senin - Minggu 24 jam",
+    "maps": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3952.9669530729175!2d110.36150180000001!3d-7.7933237!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a5826d0af5a53%3A0x9ab4582409a183fb!2sThe%20Cabin%20Hotel%20Gandekan!5e0!3m2!1sen!2sid!4v1762480354978!5m2!1sen!2sid"
+  },
+  {
+    "id": 7,
+    "name": "Cabin Ambasador",
+    "image": "/src/assets/images/outlet/Cabin-Ambasador-Hotel.jpg",
+    "whatsapp": "6281392928882",
+    "openAt": "Senin - Minggu 24 jam",
+    "maps": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3952.994552359998!2d110.35761699999999!3d-7.7904003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a59d37358e807%3A0x6ba779b4fb7fdbd!2sThe%20Cabin%20Hotel%20Ambasador!5e0!3m2!1sen!2sid!4v1762480667695!5m2!1sen!2sid"
+  },
+  {
+    "id": 8,
+    "name": "Cabin Wirobrajan",
+    "image": "/src/assets/images/outlet/Cabin-Wirobrajan-Hotel.jpg",
+    "whatsapp": "6282146252070",
+    "openAt": "Senin - Minggu 24 jam",
+    "maps": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3952.8929079945137!2d110.3490068!3d-7.801161399999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a57f465c4eadd%3A0x20e3c71737842fdf!2sThe%20Cabin%20Hotel%20Wirobrajan!5e0!3m2!1sen!2sid!4v1762481985833!5m2!1sen!2sid"
+  },
+  {
+    "id": 9,
+    "name": "Cabin Mantrijeron",
+    "image": "/src/assets/images/outlet/Cabin-Mantrijeron-Hotel.jpg",
+    "whatsapp": "6282136366996",
+    "openAt": "Senin - Minggu 24 jam",
+    "maps": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3952.6581846144527!2d110.3674956!3d-7.8259554!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a573a57020d4b%3A0xe1d08809f09f6de!2sThe%20Cabin%20Hotel%20Mantrijeron!5e0!3m2!1sen!2sid!4v1762482422831!5m2!1sen!2sid"
+  },
+  {
+    "id": 10,
+    "name": "Cabin Tugu",
+    "image": "/src/assets/images/outlet/Cabin-Tugu-Hotel.jpg",
+    "whatsapp": "62274545133",
+    "openAt": "Senin - Minggu 24 jam",
+    "maps": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3953.014105615638!2d110.3663351!3d-7.788328499999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a5967a2889533%3A0x6067283f626ac71f!2shostel%20cabin%20tugu!5e0!3m2!1sen!2sid!4v1762482871932!5m2!1sen!2sid"
+  },
+  {
+    "id": 11,
+    "name": "Cabin Sumberan Baru",
+    "image": "/src/assets/images/outlet/Cabin-Sumberan-Baru-Hotel.jpg",
+    "whatsapp": "6285135508998",
+    "openAt": "Senin - Minggu 24 jam",
+    "maps": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3953.0750250349656!2d110.34368387080751!3d-7.781870160032728!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a59a01750fa51%3A0xf2e50c513d8aee52!2sThe%20Cabin%20Hotel%20Sumberan%20Baru!5e0!3m2!1sen!2sid!4v1762497681327!5m2!1sen!2sid"
+  }
+]

@@ -1,6 +1,5 @@
 [
   {
-    "id": 1,
     "name": "Cabang Godean",
     "image": "/src/assets/images/outlet/Cabang-Godean.jpg",
     "whatsapp": "6287736763116",
@@ -8,7 +7,6 @@
     "maps": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3953.085949927047!2d110.34737469999999!3d-7.780711400000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a5900766f710b%3A0xd091a31f634489bd!2sBakpia%203%20Generasi%20Godean!5e0!3m2!1sen!2sid!4v1761698469836!5m2!1sen!2sid"
   },
   {
-    "id": 2,
     "name": "Cabang Magelang",
     "image": "/src/assets/images/outlet/Cabang-Magelang.jpg",
     "whatsapp": "6282260765301",
@@ -16,7 +14,6 @@
     "maps": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3953.334504539697!2d110.36202259999999!3d-7.7543017!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a59fc42d7d3df%3A0xcc368b5331dcfc32!2sBakpia%203%20Generasi!5e0!3m2!1sen!2sid!4v1761697934256!5m2!1sen!2sid"
   },
   {
-    "id": 3,
     "name": "Bajaj Bakpia Tugu",
     "image": "/src/assets/images/outlet/Bajaj-Bakpia-Tugu.jpg",
     "whatsapp": "6282229433659",
@@ -24,7 +21,6 @@
     "maps": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3953.015692828508!2d110.3662169!3d-7.7881602999999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a5967a2889533%3A0x6067283f626ac71f!2shostel%20cabin%20tugu!5e0!3m2!1sen!2sid!4v1761701379829!5m2!1sen!2sid"
   },
   {
-    "id": 4,
     "name": "Bajaj Bakpia Sutomo",
     "image": "/src/assets/images/outlet/Bajaj-Bakpia-Sutomo.jpg",
     "whatsapp": "6287760604877",
