@@ -1,4 +1,5 @@
 ---
+import { Image } from "astro:assets";
 import data from "./../data/outlet.json";
 ---
 
@@ -9,9 +10,14 @@ import data from "./../data/outlet.json";
             data.bakpia.map((outlet) => {
                 return (
                     <div class="flex flex-col sm:mx-auto justify-between items-center bg-white border border-gray-200 rounded-lg shadow-sm md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700 dark:text-gray-100">
-                        <img
-                            class="open-dialog object-cover m-0 p-0 w-full rounded-t-lg h-80 md:h-auto md:w-60 md:rounded-none md:rounded-s-lg"
+                        <Image
                             src={outlet.image}
+                            alt="bakpia 3 generasi"
+                            width={750}
+                            height={1000}
+                            class="open-dialog object-cover m-0 p-0 w-full rounded-t-lg h-80 md:h-auto md:w-60 md:rounded-none md:rounded-s-lg"
+                            loading="lazy"
+                            fetchpriority="auto"
                         />
                         <div class="card-content p-5 lg:ml-2 mr-2 mt-2 lg:mt-0">
                             <h6 class="text-2xl font-bold tracking-tight text-gray-900 dark:text-gray-100">
@@ -56,9 +62,14 @@ import data from "./../data/outlet.json";
             data.dentes.map((outlet) => {
                 return (
                     <div class="flex flex-col sm:mx-auto justify-between items-center bg-white border border-gray-200 rounded-lg shadow-sm md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700 dark:text-gray-100">
-                        <img
-                            class="open-dialog object-cover m-0 p-0 w-full rounded-t-lg h-80 md:h-auto md:w-60 md:rounded-none md:rounded-s-lg"
+                        <Image
                             src={outlet.image}
+                            alt="bakpia 3 generasi"
+                            width={750}
+                            height={1000}
+                            class="open-dialog object-cover m-0 p-0 w-full rounded-t-lg h-80 md:h-auto md:w-60 md:rounded-none md:rounded-s-lg"
+                            loading="lazy"
+                            fetchpriority="auto"
                         />
                         <div class="card-content p-5 lg:ml-2 mr-2 mt-2 lg:mt-0">
                             <h6 class="text-2xl font-bold tracking-tight text-gray-900 dark:text-gray-100">
@@ -103,9 +114,14 @@ import data from "./../data/outlet.json";
             data.hotel.map((outlet) => {
                 return (
                     <div class="flex flex-col sm:mx-auto justify-between items-center bg-white border border-gray-200 rounded-lg shadow-sm md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700 dark:text-gray-100">
-                        <img
-                            class="open-dialog object-cover m-0 p-0 w-full rounded-t-lg h-80 md:h-auto md:w-60 md:rounded-none md:rounded-s-lg"
+                        <Image
                             src={outlet.image}
+                            alt="bakpia 3 generasi"
+                            width={750}
+                            height={1000}
+                            class="open-dialog object-cover m-0 p-0 w-full rounded-t-lg h-80 md:h-auto md:w-60 md:rounded-none md:rounded-s-lg"
+                            loading="lazy"
+                            fetchpriority="auto"
                         />
                         <div class="card-content p-5 lg:ml-2 mr-2 mt-2 lg:mt-0">
                             <h6 class="text-2xl font-bold tracking-tight text-gray-900 dark:text-gray-100">
