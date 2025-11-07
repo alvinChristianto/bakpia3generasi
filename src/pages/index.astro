@@ -24,187 +24,220 @@ import wabutton from "~/assets/images/WhatsAppButtonGreenSmall.png";
 ---
 
 <Layout
-  title="Bakpia 3 Generasi"
-  pageTitle="Bakpia 3 Generasi"
-  description="Bakpia 3 Generasi, oleh-oleh dari yogyakarta yang enak dan terjangkau"
+    title="Bakpia 3 Generasi"
+    pageTitle="Bakpia 3 Generasi"
+    description="Bakpia 3 Generasi, oleh-oleh dari yogyakarta yang enak dan terjangkau"
 >
-  <Section class:list={"bg-white"}>
-    <Hero>
-      <div slot="hero-content-left" class="prose max-w-none max-lg:order-1">
-        <!-- <Badge title="il ristorante italiana" /> -->
-        <h1 class="font-black">Bakpia 3 Generasi, oleh-oleh khas Jogja</h1>
+    <Section class:list={"bg-white"}>
+        <Hero>
+            <div
+                slot="hero-content-left"
+                class="prose max-w-none max-lg:order-1"
+            >
+                <!-- <Badge title="il ristorante italiana" /> -->
+                <h1 class="font-black">
+                    Bakpia 3 Generasi, oleh-oleh khas Jogja
+                </h1>
 
-        <p>
-          Bakpia 3 Generasi, warisan yang terjaga dan diturunkan selama 3
-          generasi. Citarasa unik dengan paduan bahan-bahan terbaik. Varian kami
-          Meliputi Abon, Coklat almond, Keju dan Kacang Hijau
-        </p>
+                <p>
+                    Bakpia 3 Generasi, warisan yang terjaga dan diturunkan
+                    selama 3 generasi. Citarasa unik dengan paduan bahan-bahan
+                    terbaik. Varian kami Meliputi Abon, Coklat almond, Keju dan
+                    Kacang Hijau
+                </p>
 
-        <span class="text-brand-green font-medium"
-          >✔ Tersedia Di The Cabin Hotel dan Klinik Gigi Dentes</span
-        >
+                <span class="text-brand-green font-normal"
+                    >✔ Tersedia Di <a
+                        class="inline no-underline align-middle text-brand-green font-normal border-solid border-b border-b-orange-500"
+                        href="/about-us#outlet"
+                        >The Cabin Hotel dan Klinik Gigi Dentes{" "}<svg
+                            width="16px"
+                            height="16px"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                        >
+                            <g id="Interface / External_Link">
+                                <path
+                                    id="Vector"
+                                    d="M10.0002 5H8.2002C7.08009 5 6.51962 5 6.0918 5.21799C5.71547 5.40973 5.40973 5.71547 5.21799 6.0918C5 6.51962 5 7.08009 5 8.2002V15.8002C5 16.9203 5 17.4801 5.21799 17.9079C5.40973 18.2842 5.71547 18.5905 6.0918 18.7822C6.5192 19 7.07899 19 8.19691 19H15.8031C16.921 19 17.48 19 17.9074 18.7822C18.2837 18.5905 18.5905 18.2839 18.7822 17.9076C19 17.4802 19 16.921 19 15.8031V14M20 9V4M20 4H15M20 4L13 11"
+                                    stroke="#000000"
+                                    stroke-width="2"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"></path>
+                            </g>
+                        </svg></a
+                    ></span
+                >
 
-        <div class="mt-8 flex items-center gap-x-8">
-          <Button url="https://wa.me/6282138060002?text=Halo,%20saya%20ingin%20membeli%20bakpia%203%20generasi%20" target="_blank">Pesan lewat Whatsapp</Button>
-         
-          <!-- <ButtonCallUs /> -->
-        </div>
-      </div>
-      <div slot="hero-content-right">
-        <Picture
-          class:list={"mx-auto"}
-          src={bakpiaHero}
-          height={600}
-          formats={["avif", "webp"]}
-          alt="A description of my image."
-          loading={"eager"}
-          fetchpriority={"high"}
-        />
-      </div>
-    </Hero>
-  </Section>
+                <div class="mt-8 flex items-center gap-x-8">
+                    <Button
+                        url="https://wa.me/6282138060002?text=Halo,%20saya%20ingin%20membeli%20bakpia%203%20generasi%20"
+                        target="_blank">Pesan lewat Whatsapp</Button
+                    >
 
-  <WideImage
-    image={DecorativeImage}
-    alt="Just an image"
-    class:list={"aspect-video lg:aspect-[16/6]"}
-  />
+                    <!-- <ButtonCallUs /> -->
+                </div>
+            </div>
+            <div slot="hero-content-right">
+                <Picture
+                    class:list={"mx-auto"}
+                    src={bakpiaHero}
+                    height={600}
+                    formats={["avif", "webp"]}
+                    alt="A description of my image."
+                    loading={"eager"}
+                    fetchpriority={"high"}
+                />
+            </div>
+        </Hero>
+    </Section>
 
-  <Section class:list={"bg-white"}>
-    <Heading>
-      <h2 slot="heading-title" class="font-black text-brand-green h2">
-        Pilihan Bakpia kami
-      </h2>
-      <p slot="heading-content">Varian Bakpia 3 Generasi</p>
-    </Heading>
+    <WideImage
+        image={DecorativeImage}
+        alt="Just an image"
+        class:list={"aspect-video lg:aspect-[16/6]"}
+    />
 
-    <Grid>
-      <div slot="grid-content-1">
-        <div class="flex flex-col items-center prose text-center">
-          <Picture
-            class:list={"not-prose w-full h-auto"}
-            src={abon}
-            formats={["avif", "webp"]}
-            alt="A description of my image."
-          />
-          <h3 class="h4 mt-0 font-black">Bakpia Abon</h3>
-          <!-- <p>
+    <Section class:list={"bg-white"}>
+        <Heading>
+            <h2 slot="heading-title" class="font-black text-brand-green h2">
+                Pilihan Bakpia kami
+            </h2>
+            <p slot="heading-content">Varian Bakpia 3 Generasi</p>
+        </Heading>
+
+        <Grid>
+            <div slot="grid-content-1">
+                <div class="flex flex-col items-center prose text-center">
+                    <Picture
+                        class:list={"not-prose w-full h-auto"}
+                        src={abon}
+                        formats={["avif", "webp"]}
+                        alt="A description of my image."
+                    />
+                    <h3 class="h4 mt-0 font-black">Bakpia Abon</h3>
+                    <!-- <p>
             Pasta is a staple of Italian cuisine, with a rich history dating
             back centuries. It comes in various shapes and sizes, each suited to
             different sauces and preparations.
           </p> -->
-        </div>
-      </div>
+                </div>
+            </div>
 
-      <div slot="grid-content-2">
-        <div class="flex flex-col items-center prose text-center">
-          <Picture
-            class:list={"not-prose w-full h-auto"}
-            src={kacangh}
-            formats={["avif", "webp"]}
-            alt="A description of my image."
-          />
-          <h3 class="h4 mt-0 font-black">Bakpia Kacang Hijau</h3>
-          <!-- <p>
+            <div slot="grid-content-2">
+                <div class="flex flex-col items-center prose text-center">
+                    <Picture
+                        class:list={"not-prose w-full h-auto"}
+                        src={kacangh}
+                        formats={["avif", "webp"]}
+                        alt="A description of my image."
+                    />
+                    <h3 class="h4 mt-0 font-black">Bakpia Kacang Hijau</h3>
+                    <!-- <p>
             Pasta is a staple of Italian cuisine, with a rich history dating
             back centuries. It comes in various shapes and sizes, each suited to
             different sauces and preparations.
           </p> -->
-        </div>
-      </div>
+                </div>
+            </div>
 
-      <div slot="grid-content-3">
-        <div class="flex flex-col items-center prose text-center">
-          <Picture
-            class:list={"not-prose w-full h-auto"}
-            src={keju}
-            formats={["avif", "webp"]}
-            alt="A description of my image."
-          />
-          <h3 class="h4 mt-0 font-black">Bakpia Keju</h3>
-          <!-- <p>
+            <div slot="grid-content-3">
+                <div class="flex flex-col items-center prose text-center">
+                    <Picture
+                        class:list={"not-prose w-full h-auto"}
+                        src={keju}
+                        formats={["avif", "webp"]}
+                        alt="A description of my image."
+                    />
+                    <h3 class="h4 mt-0 font-black">Bakpia Keju</h3>
+                    <!-- <p>
             Pasta is a staple of Italian cuisine, with a rich history dating
             back centuries. It comes in various shapes and sizes, each suited to
             different sauces and preparations.
           </p> -->
-        </div>
-      </div>
+                </div>
+            </div>
 
-      <div slot="grid-content-4">
-        <div class="flex flex-col items-center prose text-center">
-          <Picture
-            class:list={"not-prose w-full h-auto"}
-            src={coklatalmond}
-            formats={["avif", "webp"]}
-            alt="A description of my image."
-          />
-          <h3 class="h4 mt-0 font-black">Bakpia Coklat Almond</h3>
-          <!-- <p>
+            <div slot="grid-content-4">
+                <div class="flex flex-col items-center prose text-center">
+                    <Picture
+                        class:list={"not-prose w-full h-auto"}
+                        src={coklatalmond}
+                        formats={["avif", "webp"]}
+                        alt="A description of my image."
+                    />
+                    <h3 class="h4 mt-0 font-black">Bakpia Coklat Almond</h3>
+                    <!-- <p>
             Pasta is a staple of Italian cuisine, with a rich history dating
             back centuries. It comes in various shapes and sizes, each suited to
             different sauces and preparations.
           </p> -->
+                </div>
+            </div>
+        </Grid>
+    </Section>
+
+    <!-- Reviews -->
+    <Section class:list={"bg-brand-red/20 relative"}>
+        <div class="py-16">
+            <Hero>
+                <div slot="hero-content-left" class="prose max-w-none order-2">
+                    <div class="text-center not-prose">
+                        <Badge color="white" title="reviews" />
+                    </div>
+                    <h2
+                        slot="heading-title"
+                        class="font-black h4 text-center mt-0 mb-4"
+                    >
+                        Review Bakpia 3 Generasi
+                    </h2>
+                    <div slot="heading-content">
+                        <p class="text-center">
+                            review-review pelanggan yang puas dengan Bakpia 3
+                            Generasi
+                        </p>
+
+                        <ReviewSlider />
+                    </div>
+                </div>
+
+                <div slot="hero-content-right">
+                    <Picture
+                        src={reviewAuthors}
+                        alt="Review authors"
+                        class="w-full h-auto"
+                    />
+                </div>
+            </Hero>
         </div>
-      </div>
-    </Grid>
-  </Section>
 
-  <!-- Reviews -->
-  <Section class:list={"bg-brand-red/20 relative"}>
-    <div class="py-16">
-      <Hero>
-        <div slot="hero-content-left" class="prose max-w-none order-2">
-          <div class="text-center not-prose">
-            <Badge color="white" title="reviews" />
-          </div>
-          <h2 slot="heading-title" class="font-black h4 text-center mt-0 mb-4">
-            Review Bakpia 3 Generasi
-          </h2>
-          <div slot="heading-content">
-            <p class="text-center">
-              review-review pelanggan yang puas dengan Bakpia 3 Generasi
-            </p>
+        <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 1440 320"
+            class="absolute h-40 w-full top-0 inset-x-0 rotate-180"
+            preserveAspectRatio="none"
+            ><path
+                fill="#ffffff"
+                fill-opacity="1"
+                d="M0,288L48,272C96,256,192,224,288,197.3C384,171,480,149,576,165.3C672,181,768,235,864,250.7C960,267,1056,245,1152,250.7C1248,256,1344,288,1392,304L1440,320L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
+            ></path>
+        </svg>
+        <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 1440 320"
+            class="absolute h-40 w-full bottom-0 inset-x-0"
+            preserveAspectRatio="none"
+            ><path
+                fill="#ffffff"
+                fill-opacity="1"
+                d="M0,288L48,272C96,256,192,224,288,197.3C384,171,480,149,576,165.3C672,181,768,235,864,250.7C960,267,1056,245,1152,250.7C1248,256,1344,288,1392,304L1440,320L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
+            ></path>
+        </svg>
+    </Section>
 
-            <ReviewSlider />
-          </div>
-        </div>
-
-        <div slot="hero-content-right">
-          <Picture
-            src={reviewAuthors}
-            alt="Review authors"
-            class="w-full h-auto"
-          />
-        </div>
-      </Hero>
-    </div>
-
-    <svg
-      xmlns="http://www.w3.org/2000/svg"
-      viewBox="0 0 1440 320"
-      class="absolute h-40 w-full top-0 inset-x-0 rotate-180"
-      preserveAspectRatio="none"
-      ><path
-        fill="#ffffff"
-        fill-opacity="1"
-        d="M0,288L48,272C96,256,192,224,288,197.3C384,171,480,149,576,165.3C672,181,768,235,864,250.7C960,267,1056,245,1152,250.7C1248,256,1344,288,1392,304L1440,320L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
-      ></path>
-    </svg>
-    <svg
-      xmlns="http://www.w3.org/2000/svg"
-      viewBox="0 0 1440 320"
-      class="absolute h-40 w-full bottom-0 inset-x-0"
-      preserveAspectRatio="none"
-      ><path
-        fill="#ffffff"
-        fill-opacity="1"
-        d="M0,288L48,272C96,256,192,224,288,197.3C384,171,480,149,576,165.3C672,181,768,235,864,250.7C960,267,1056,245,1152,250.7C1248,256,1344,288,1392,304L1440,320L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
-      ></path>
-    </svg>
-  </Section>
-
-  <!-- Desserts -->
-  <!-- <Section class:list={"bg-white"}>
+    <!-- Desserts -->
+    <!-- <Section class:list={"bg-white"}>
     <Hero>
       <div slot="hero-content-left" class="prose max-w-none order-2">
         <Badge title="dolce" />
@@ -244,8 +277,8 @@ import wabutton from "~/assets/images/WhatsAppButtonGreenSmall.png";
     </Hero>
   </Section> -->
 
-  <!-- Contact -->
-  <!-- <Section class:list={"bg-white"}>
+    <!-- Contact -->
+    <!-- <Section class:list={"bg-white"}>
     <Hero>
       <div slot="hero-content-left" class="prose max-w-none">
         <Badge color="red" title="benvenuto" />

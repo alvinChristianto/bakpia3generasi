@@ -2,27 +2,33 @@
 import Layout from "~/layouts/Layout.astro";
 import Section from "~/components/Section.astro";
 import Article from "~/components/Article.astro";
-
+import Card from "~/components/Card.astro";
+import Outlet from "~/components/Outlet.astro";
 // Images
 ---
 
 <Layout>
-  <Section class:list={"bg-white"}>
-    <Article>
-      <h2>Tentang Bakpia 3 Generasi</h2>
-      <p>
-        Bakpia, camilan berbentuk bulat pipih dengan kulit renyah dan isian
-        beragam, hadir dalam empat varian rasa yang menggugah selera. Varian
-        abon menawarkan sensasi gurih dan pedas yang unik, berbeda dari bakpia
-        manis pada umumnya. Bagi pencinta keju, varian keju menyajikan perpaduan
-        manis dan gurih yang lembut. Varian coklat almond memanjakan lidah
-        dengan rasa coklat yang kaya dan tekstur renyah dari potongan almond.
-        Sementara itu, varian kacang hijau tetap menjadi favorit klasik dengan
-        tekstur lembut dan rasa manis yang pas. Keempat varian ini memberikan
-        pilihan rasa yang beragam, cocok untuk berbagai selera.
-      </p>
+    <Section class:list={"bg-white"}>
+        <Article>
+            <h2>Tentang Bakpia 3 Generasi</h2>
+            <div>
+                <em>Bakpia dari generasi perintis ke generasi masa kini.</em>
+            </div>
+            <p>
+                Bakpia, camilan berbentuk bulat pipih dengan kulit renyah dan
+                isian beragam, hadir dalam empat varian rasa yang menggugah
+                selera. Varian abon menawarkan sensasi gurih dan pedas yang
+                unik, berbeda dari bakpia manis pada umumnya. Bagi pencinta
+                keju, varian keju menyajikan perpaduan manis dan gurih yang
+                lembut. Varian coklat almond memanjakan lidah dengan rasa coklat
+                yang kaya dan tekstur renyah dari potongan almond. Sementara
+                itu, varian kacang hijau tetap menjadi favorit klasik dengan
+                tekstur lembut dan rasa manis yang pas. Keempat varian ini
+                memberikan pilihan rasa yang beragam, cocok untuk berbagai
+                selera.
+            </p>
 
-      <!-- <h3>Our Story</h3>
+            <!-- <h3>Our Story</h3>
       <p>
         Founded in <em>1998</em>, our family-owned restaurant has always been a
         labor of love. Inspired by the recipes passed down through generations,
@@ -39,25 +45,26 @@ import Article from "~/components/Article.astro";
         crafted with care.
       </p> -->
 
-      <h4>Keunggulan Bakpia 3 Generasi?</h4>
-      <ul>
-        <li>
-          <strong>Bahan-bahan fresh:</strong> Bahan baku yang fresh memberikan kualitas produk bakpia yang paling bagus
-        </li>
-        <li>
-          <strong>Berbagai Varian Rasa</strong> Varian-varian rasa baru yang kami hadirkan menambah citarasa bakpia khas jogja
-        </li>
-        <!-- <li>
+            <h4>Keunggulan Bakpia 3 Generasi?</h4>
+            <ul>
+                <li>
+                    <strong>Bahan-bahan fresh:</strong> Bahan baku yang fresh memberikan
+                    kualitas produk bakpia yang paling bagus
+                </li>
+                <li>
+                    <strong>Berbagai Varian Rasa</strong> Varian-varian rasa baru
+                    yang kami hadirkan menambah citarasa bakpia khas jogja
+                </li>
+                <!-- <li>
           <strong>Warm Atmosphere:</strong> A place where everyone feels like family.
         </li> -->
-      </ul>
+            </ul>
 
-      <!-- <h3>Join Us</h3>
-      <p>
-        Whether you're celebrating a special occasion or simply indulging in the
-        pleasures of Italian cuisine, <strong>AstroPie</strong> is the perfect destination.
-        <em>Come for the food, stay for the memories.</em>
-      </p> -->
-    </Article>
-  </Section>
+            <h3 id="outlet">Outlet Kami</h3>
+            <p>Silahkan mengunjungi outlet-outlet kami</p>
+            <div class:list="flex">
+                <Outlet />
+            </div>
+        </Article>
+    </Section>
 </Layout>

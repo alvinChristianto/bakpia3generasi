@@ -1,0 +1,201 @@
+---
+import data from "./../data/outlet.json";
+---
+
+<div class="mt-5">
+    <h4>Outlet Bakpia</h4>
+    <div class="grid grid-cols-1 xl:grid-cols-2 gap-4">
+        {
+            data.bakpia.map((outlet) => {
+                return (
+                    <div class="flex flex-col sm:mx-auto justify-between items-center bg-white border border-gray-200 rounded-lg shadow-sm md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700 dark:text-gray-100">
+                        <img
+                            class="open-dialog object-cover m-0 p-0 w-full rounded-t-lg h-80 md:h-auto md:w-60 md:rounded-none md:rounded-s-lg"
+                            src={outlet.image}
+                        />
+                        <div class="card-content p-5 lg:ml-2 mr-2 mt-2 lg:mt-0">
+                            <h6 class="text-2xl font-bold tracking-tight text-gray-900 dark:text-gray-100">
+                                {outlet.name}
+                            </h6>
+                            <div class="dark:text-gray-100">
+                                WhatsApp:{" "}
+                                <div class="md:inline">
+                                    <a
+                                        class="ml-5 md:ml-0 no-underline border-solid border-b border-b-red-500 dark:text-gray-100"
+                                        href={`https://wa.me/${outlet.whatsapp}`}
+                                    >
+                                        +{outlet.whatsapp}
+                                    </a>
+                                </div>
+                            </div>
+                            <div>
+                                Buka:{" "}
+                                <div class="md:inline ml-5 md:ml-0">
+                                    {outlet["open-at"]}
+                                </div>
+                            </div>
+                            <iframe
+                                class="w-full h-48"
+                                src={outlet.maps}
+                                allowfullscreen=""
+                                loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"
+                            />
+                        </div>
+                    </div>
+                );
+            })
+        }
+    </div>
+</div>
+
+<div class="mt-5">
+    <h4>Outlet di Klinik Gigi Dentes</h4>
+    <div class="grid grid-cols-1 xl:grid-cols-2 gap-4">
+        {
+            data.dentes.map((outlet) => {
+                return (
+                    <div class="flex flex-col sm:mx-auto justify-between items-center bg-white border border-gray-200 rounded-lg shadow-sm md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700 dark:text-gray-100">
+                        <img
+                            class="open-dialog object-cover m-0 p-0 w-full rounded-t-lg h-80 md:h-auto md:w-60 md:rounded-none md:rounded-s-lg"
+                            src={outlet.image}
+                        />
+                        <div class="card-content p-5 lg:ml-2 mr-2 mt-2 lg:mt-0">
+                            <h6 class="text-2xl font-bold tracking-tight text-gray-900 dark:text-gray-100">
+                                {outlet.name}
+                            </h6>
+                            <div class="dark:text-gray-100">
+                                WhatsApp:{" "}
+                                <div class="md:inline">
+                                    <a
+                                        class="ml-5 md:ml-0 no-underline border-solid border-b border-b-red-500 dark:text-gray-100"
+                                        href={`https://wa.me/${outlet.whatsapp}`}
+                                    >
+                                        +{outlet.whatsapp}
+                                    </a>
+                                </div>
+                            </div>
+                            <div>
+                                Buka:{" "}
+                                <div class="md:inline ml-5 md:ml-0">
+                                    {outlet["open-at"]}
+                                </div>
+                            </div>
+                            <iframe
+                                class="w-full h-48"
+                                src={outlet.maps}
+                                allowfullscreen=""
+                                loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"
+                            />
+                        </div>
+                    </div>
+                );
+            })
+        }
+    </div>
+</div>
+
+<div class="mt-5">
+    <h4>Outlet di The Cabin Hotel</h4>
+    <div class="grid grid-cols-1 xl:grid-cols-2 gap-4">
+        {
+            data.hotel.map((outlet) => {
+                return (
+                    <div class="flex flex-col sm:mx-auto justify-between items-center bg-white border border-gray-200 rounded-lg shadow-sm md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700 dark:text-gray-100">
+                        <img
+                            class="open-dialog object-cover m-0 p-0 w-full rounded-t-lg h-80 md:h-auto md:w-60 md:rounded-none md:rounded-s-lg"
+                            src={outlet.image}
+                        />
+                        <div class="card-content p-5 lg:ml-2 mr-2 mt-2 lg:mt-0">
+                            <h6 class="text-2xl font-bold tracking-tight text-gray-900 dark:text-gray-100">
+                                {outlet.name}
+                            </h6>
+                            <div class="dark:text-gray-100">
+                                WhatsApp:{" "}
+                                <div class="md:inline">
+                                    <a
+                                        class="ml-5 md:ml-0 no-underline border-solid border-b border-b-red-500 dark:text-gray-100"
+                                        href={`https://wa.me/${outlet.whatsapp}`}
+                                    >
+                                        +{outlet.whatsapp}
+                                    </a>
+                                </div>
+                            </div>
+                            <div>
+                                Buka:{" "}
+                                <div class="md:inline ml-5 md:ml-0">
+                                    {outlet["open-at"]}
+                                </div>
+                            </div>
+                            <iframe
+                                class="w-full h-48"
+                                src={outlet.maps}
+                                allowfullscreen=""
+                                loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"
+                            />
+                        </div>
+                    </div>
+                );
+            })
+        }
+    </div>
+</div>
+
+<div
+    class="fixed inset-0 bg-black bg-opacity-90 z-50 hidden"
+    id="modal-overlay"
+>
+    <button
+        class="absolute top-3 right-5 m-0 p-0 close-modal-button text-gray-300 hover:text-gray-700"
+        >X</button
+    >
+</div>
+
+<div
+    class="fixed top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-white sm:max-w-sm w-64 lg:w-96 p-0 overflow-hidden rounded-lg shadow-lg z-50 hidden"
+    id="modal-container"
+>
+    <img class="p-0 m-0 max-h-svh h-full" />
+</div>
+
+<script>
+    import { isOpen } from "../store.js";
+
+    function openDialog(ev: MouseEvent) {
+        const target = ev.target;
+        isOpen.set(true);
+        const image = document.querySelector("#modal-container img");
+        image?.setAttribute("src", target.src);
+    }
+
+    function closeDialog(ev: MouseEvent | FocusEvent) {
+        isOpen.set(false);
+    }
+
+    const openButtons = document.getElementsByClassName("open-dialog");
+    Array.prototype.forEach.call(openButtons, (element) => {
+        element.addEventListener("click", openDialog);
+    });
+
+    const closeButtons = document.getElementsByClassName("close-modal-button");
+    Array.prototype.forEach.call(closeButtons, (element) => {
+        element.addEventListener("click", closeDialog);
+    });
+
+    isOpen.subscribe((open: boolean) => {
+        const overlay = document.getElementById("modal-overlay");
+        const container = document.getElementById("modal-container");
+        if (open) {
+            overlay?.classList.remove("hidden");
+            container?.classList.remove("hidden");
+        } else {
+            overlay?.classList.add("hidden");
+            container?.classList.add("hidden");
+        }
+    });
+
+    const modal_overlay = document.getElementById("modal-overlay");
+    modal_overlay?.addEventListener("click", closeDialog);
+</script>
